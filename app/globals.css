@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 .icon-style {
-    @apply text-[30px];
+    @apply text-[30px] text-[#003744];
+}
+
+.language-icon {
+    @apply text-[#6D7557]
 }
 
 .flex-col-center {
@@ -11,5 +15,5 @@
 }
 
 .socials-text {
-    @apply text-[30px] font-black underline decoration-solid;
+    @apply text-[35px] font-black underline decoration-solid text-[#003744];
 }

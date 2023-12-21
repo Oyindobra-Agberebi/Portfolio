@@ -14,7 +14,7 @@ export default function Navbar() {
   ];
   return (
     <nav>
-      <div className="flex justify-between items-center pl-[20px] pr-[20px] bg-yellow-50">
+      <div className="flex justify-between items-center pl-[20px] pr-[20px]">
        
        <Image
        className="  ml-[-20px] mt-[-25px] mb-[-20px]"
@@ -24,7 +24,7 @@ export default function Navbar() {
           quality={100}
           placeholder="blur"/>
           <div className=" basis-[65%] flex items-center justify-between ">
-          <ul className="flex gap-[1rem]">
+          {/* <ul className="flex gap-[1rem]">
             {
               Links.map((link) => (
                 <li><a href={link.link} >{link.name}</a></li>
@@ -32,12 +32,12 @@ export default function Navbar() {
             }
 
             
-          </ul>
-          <FaMoon />
+          </ul> */}
+          {/* <FaMoon /> */}
           </div>
           
 
-        {/* <FaBars /> */}
+        <FaBars />
       </div>
     </nav>
   );
