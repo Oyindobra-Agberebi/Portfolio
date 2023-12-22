@@ -17,3 +17,7 @@
 .socials-text {
     @apply text-[35px] font-black underline decoration-solid text-[#003744];
 }
+
+.card-button {
+    @apply flex gap-[5px] bg-gray-400 py-[7px] rounded-lg;
+}

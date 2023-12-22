@@ -4,6 +4,8 @@ import Logo from "../../public/images/logo.png";
 import { FaBars } from "react-icons/fa6";
 import { FaMoon } from "react-icons/fa";
 
+//fonts
+import {playFairDisplay, algreyaSans} from "./fonts"
 
 export default function Navbar() {
   let Links = [
@@ -14,7 +16,7 @@ export default function Navbar() {
   ];
   return (
     <nav>
-      <div className="flex justify-between items-center pl-[20px] pr-[20px]">
+      <div className="flex justify-between items-center px-[20px]">
        
        <Image
        className="  ml-[-20px] mt-[-25px] mb-[-20px]"
@@ -24,20 +26,20 @@ export default function Navbar() {
           quality={100}
           placeholder="blur"/>
           <div className=" basis-[65%] flex items-center justify-between ">
-          {/* <ul className="flex gap-[1rem]">
+          <ul className="gap-[2rem] font-semibold hidden sm:flex">
             {
               Links.map((link) => (
-                <li><a href={link.link} >{link.name}</a></li>
+                <li className={playFairDisplay.className}><a href={link.link} >{link.name}</a></li>
               ))
             }
 
             
-          </ul> */}
-          {/* <FaMoon /> */}
+          </ul>
+          <FaMoon className="hidden"/>
           </div>
           
 
-        <FaBars />
+        <FaBars className="sm:hidden"/>
       </div>
     </nav>
   );

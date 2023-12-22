@@ -9,7 +9,7 @@ import {playFairDisplay, algreyaSans} from "./fonts"
 
 export default function Card() {
   return (
-    <div className="w-[83%] bg-[#005266] m-[1rem] rounded-[.5rem] shadow-[3px_3px_10px_1px_black] overflow-hidden ">
+    <div className="w-[95%] max-w-[300px] bg-[#005266] m-[1rem] rounded-[.5rem] shadow-[3px_3px_10px_1px_black] overflow-hidden ">
       <div className="w-100% h-[180px]">
         <Image
         className="h-[100%]"
@@ -19,9 +19,9 @@ export default function Card() {
           placeholder="blur"
         />
       </div>
-      <div className="p-[1rem] flex-col-center flex-col gap-[1rem]">
+      <div className="p-[1rem] flex-col-center flex-col gap-[.7rem]">
         <h3 className="text-[25px] text-white">Testimonial Grid</h3>
-        <p className="text-[22px] text-white">
+        <p className="text-[22px] text-white leading-5">
           <span className={algreyaSans.className}>This is a project about an NFT project that was preparing for launch</span>
         </p>
         <p className="text-[22px] text-white">
@@ -31,8 +31,8 @@ export default function Card() {
             </span>
         </p>
         <div className="flex justify-between text-white">
-        <button className="flex gap-[5px] bg-gray-400 px-[25px] py-[7px] rounded-lg"><FaExternalLinkAlt className="text-[20px]" />Go Live</button>
-          <button className="flex gap-[5px] bg-gray-400 px-[20px] py-[7px] rounded-lg"><FaGithub className="text-[20px]" />Code</button>
+        <button className="card-button px-[25px]"><FaExternalLinkAlt className="text-[20px]" />Go Live</button>
+          <button className="card-button px-[20px]"><FaGithub className="text-[20px]" />Code</button>
           
         </div>
       </div>

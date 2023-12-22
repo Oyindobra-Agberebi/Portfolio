@@ -18,8 +18,8 @@ import Images from "../../public/images/images.png";
 
 export default function Header() {
   return (
-    <div className="px-[2rem] flex flex-col gap-[10px] items-center py-[1rem]">
-      <p className={playFairDisplay.className}><span className="text-[36px] leading-10 text-center font-semibold text-[#414141]" >Oyindobra <span className="block">Agberebi</span></span></p>
+    <div className=" flex flex-col gap-[10px] items-center py-[1rem]">
+      <p className="text-[36px] leading-10 text-center font-semibold text-[#414141]" ><span  className={playFairDisplay.className}>Oyindobra Agberebi</span></p>
       <Image 
             src={Images}
             alt="A picture of Dobra"

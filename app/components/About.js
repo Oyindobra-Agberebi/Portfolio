@@ -41,7 +41,7 @@ export default function About() {
         target="_blank"
         rel="noreferrer"
 
-      ><button className="bg-[#005266] text-white text-[20px] px-[1.5rem] py-[1rem] rounded">Download My Résumé</button></a>
+      ><button className="bg-[#005266] text-white text-[20px] px-[1.5rem] py-[1rem] rounded">Download My Résumé</button> </a>
       
     </div>
   );

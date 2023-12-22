@@ -7,7 +7,7 @@ import Project from "./components/Project";
 
 export default function Home() {
   return (
-    <main className="bg-[#EBECDF]">
+    <main className="bg-[#EBECDF] py-[1.5rem] px-[1rem]">
     <Navbar/>
     <Header/>
     <About/>
